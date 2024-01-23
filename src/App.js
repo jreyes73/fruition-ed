@@ -24,6 +24,9 @@ function App() {
         <h1>Old Macdonald Had A Farm</h1>
         <p>Sprout Series</p>
         <p>Story description here</p>
+        <h1>Old Macdonald Had A Farm</h1>
+        <p>Sprout Series</p>
+        <p>Story description here</p>
       </div>
     </div>
   );
