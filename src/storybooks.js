@@ -26,7 +26,7 @@ const storybooks = [
     {
         id: 4,
         title: "Ten In the Bed",
-        description: "The ABCs introduces the alphabet to new and young leaners.",
+        description: "Ten In the Bed talks about 10 friends in a bed but they keep falling out.",
         coverImage: "../public/old-macdonald-had-a-farm-image-1.jpg",
         series: "Sprout",
         numOfPages: 39
