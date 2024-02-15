@@ -1,0 +1,13 @@
+.keeperFooter {
+    /* position: absolute; */
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.keeperFooterText {
+    color: lightgray;
+    font-size: 1.2rem;
+    font-family: cursive;
+}

@@ -1,0 +1,8 @@
+.fruitionLogo {
+    width: 700px;
+    height: 280px;
+    background-image: url(../../../public/Logo-Design-draft-1-1.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

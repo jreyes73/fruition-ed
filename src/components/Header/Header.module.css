@@ -1,20 +1,23 @@
 .navBackground {
+    background-color: white;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     display: flex;
-    /* justify-content: center; */
-    /* border-bottom: 3px solid #333; */
+    position: fixed;
+    top: 0rem;
+    width: 100vw;
     box-shadow: 5px 5px 5px lightgray;
     padding-left: 3rem;
+    z-index: 2;
 }
 
 .navIcon {
-    background-image: url("../../../public/logo512.png");
+    background-image: url("../../../public/Logo-Design-draft-1-1.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50px;
-    height: 50px;
+    width: 155px;
+    height: 60px;
 
 }
 
@@ -25,4 +28,13 @@
     font-weight: 700;
     color: limegreen;
     text-decoration: none;
+}
+
+.linksActive {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-weight: 700;
+    color: lightgray;
+    text-decoration: underline limegreen;
 }

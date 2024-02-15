@@ -1,13 +1,14 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 import { Outlet } from 'react-router-dom';
+import styles from "./Root.module.css"
 
 export default function Root(){
     return (
         <>
             <Header/>
-            <main style={{marginLeft: "3rem", marginTop: "3rem"}}>
+            <main className={styles.layout}>
                 <Outlet/>
             </main>
             <Footer />

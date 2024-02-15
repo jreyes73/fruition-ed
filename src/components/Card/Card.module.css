@@ -1,0 +1,20 @@
+.container {
+    background-color: #fff;
+    margin: 1.5rem;
+    height: 575px;
+    width: min-content;
+    padding: .5rem;
+    box-shadow: 3px 3px 3px lightgray;
+    border-radius: 10px;
+}
+
+.containerImg {
+    border-radius: 10px 10px 0 0 ;
+    height: 50%;
+    width: 500px;
+}
+
+.description {
+    width: 85%;
+    color: #333;
+}

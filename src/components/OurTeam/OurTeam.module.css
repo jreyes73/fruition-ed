@@ -1,0 +1,52 @@
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 250px;
+    width: 450px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin: 1rem;
+
+}
+
+.containerTop {
+    height: 40%;
+    width: 100%;
+    background-color: limegreen;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    bottom: 22px;
+}
+
+.memberName {
+    padding: 1.5rem 0 0 1rem;
+    color: #333;
+}
+
+/* img {
+    margin: 30px 20px 0 0;
+} */
+
+.circleImg {
+    border-radius: 50%;
+    border: 7px solid white;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 90px;
+    left: 275px;
+}
+
+.memberInfo {
+    margin: 1rem 0 0 1rem;
+    position: relative;
+    bottom: 145px;
+}
+
+.memberInfo p {
+    color: #333;
+    font-weight: 700;
+}

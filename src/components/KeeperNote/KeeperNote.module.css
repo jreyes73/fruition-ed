@@ -1,0 +1,9 @@
+.container {
+    margin: 2rem 2rem;
+    padding: 3rem;
+    width: fit-content;
+    background-color: white;
+    box-shadow: 5px 5px 5px lightgray;
+    border-radius: 10px;
+    font-family: cursive;
+}
