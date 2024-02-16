@@ -8,6 +8,10 @@ import KeeperFooter from "../KeeperFooter/KeeperFooter";
 import Card from "../Card/Card";
 import OurTeam from "../OurTeam/OurTeam";
 import companyMembers from "./companyMembers";
+// import StorybooksList from "../StorybooksList/StorybooksList";
+// import storybooksList from "../StorybooksList/Storybooks";
+import newList from "../StorybooksList/newList";
+import StorybookCard from "../StorybookCard/StorybookCard";
 
 export default function Practice () {
     
@@ -157,6 +161,11 @@ export default function Practice () {
                     />
                 )
             })}
+        </div>
+        <div className={styles.background}>
+            <h1 className={styles.sectionTitle} >Mapping Data to Components Practice</h1>
+            <h1 className={styles.centerTitle} >List of Storybooks</h1>
+            {newList.map((storybook) => <StorybookCard /> )}
         </div>
         </>
     )
